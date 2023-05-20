@@ -1,0 +1,63 @@
+site_name: PlayKitJS
+site_description: Documentação oficial da PlayKitJS
+repo_name: ShovelDev/PlayKitJs
+repo_url: https://github.com/ShovelDev/PlayKitJs
+edit_uri: ''
+plugins:
+- search
+nav:
+  - Introdução: index.md
+  - sobre.md
+  - licensa.md
+  - Tutorial:
+    - tutorial/index.md
+    - tutorial/exporting_your_game.md
+    - Interface:
+      - tutorial/interface/tela_principal.md
+      - tutorial/interface/novo_projeto.md
+      - tutorial/interface/tela_do_projeto.md
+    - Scripts:
+        - tutorial/scripts/index.md
+        - tutorial/scripts/javascript/index.md
+        - tutorial/scripts/kitlang/index.md
+markdown_extensions:
+  - pymdownx.tasklist
+  - pymdownx.emoji
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight
+  - pymdownx.superfences
+theme:
+  name: material
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: purple
+    accent: purple
+    toggle:
+      icon: material/white-balance-sunny
+      name: Alterar para o tema escuro
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: purple
+    accent: purple
+    toggle:
+      icon: material/weather-night
+      name: Alterar para o tema claro
+  features:
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+  icon:
+    repo: material/github
+  logo: https://github.com/Lobooooooo14/Xhopi/assets/88998991/59446aaa-0733-4d5c-b708-6de8d37ffa8b
+  favicon: https://github.com/Lobooooooo14/Xhopi/assets/88998991/59446aaa-0733-4d5c-b708-6de8d37ffa8b
+  language: pt
+extra:
+  social:
+  - icon: material/github
+    link: https://github.com/ShovelDev/PlayKitJs
+  - icon: fontawesome/brands/discord
+    link: https://discord.gg/fjHrAkzWqG
+  - icon: fontawesome/brands/youtube
+    link: https://www.youtube.com/@playkitjs
