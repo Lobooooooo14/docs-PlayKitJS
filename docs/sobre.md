@@ -8,6 +8,7 @@
 | YAKAZI     | Programador, divulgação e ajudante na documentacão  |
 | Caio       | Programador e física                                |
 | Lobooooooo | Documentação                                        |
+| Felipe     | Programador                     |
 
 ## Tecnologias usadas
 
