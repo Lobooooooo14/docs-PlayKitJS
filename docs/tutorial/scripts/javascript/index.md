@@ -93,6 +93,7 @@ Aqui os devidas componentes do gui:
 - .max = 0 - Define o valor máximo do gui caso seja um scroll
 - .onClick() - Função de clique, vai ser explicada mais afrente
 - .setValue(valor) - Define o valor atual do gui caso seja um scroll
+- .isClick - Retorna true se o gui estiver tocado
 
 ### OnClick
 
@@ -103,3 +104,15 @@ botao.onClick = function(){
   //Oque deve ser feito quando o botão for clicado
 }
 ```
+
+## Backdrop
+
+O backdrop serve para criar fundos estáticos e sempre fica atrás de todos os objetos e guis.
+
+- sprite: A sprite padão do gui.
+- X: A posição X do gui na tela.
+- Y: A posição Y do gui na tela.
+- largura: A largura do gui.
+- altura: A altura do gui.
+
+Diferente dos demais objetos, o gui começa no canto da tela, então o 0, 0 do objeto é no canto de sua tela.
