@@ -29,6 +29,6 @@
 
 | Port       | Descrição                                                              |
 | ---------- | ---------------------------------------------------------------------- |
-| Andoid | [Download no servidor oficial da PlayKitJS](https://discord.gg/fjHrAkzWqG) |
+| Android | [Download no servidor oficial da PlayKitJS](https://discord.gg/fjHrAkzWqG) |
 | Web | Desenvolvimento                                                               |
 | Windows | Em breve                                                                  |
