@@ -19,4 +19,4 @@ function Update() {
 }
 ```
 
-Sendo assim, no `Start()` é definido o tamanho da tela, e no `Update()` a movimentação, por exemplo. Isso será abordado mais a fundo na próxima sessão.
+Sendo assim, no `Start()` é definido o tamanho da tela, definição de váriaveis já criadas e outros scripts que precisem ser executados uma vez apenas e no `Update()` a movimentação de objetos dinâmicos e detecção de botões, por exemplo. Isso será abordado mais a fundo na próxima sessão.
