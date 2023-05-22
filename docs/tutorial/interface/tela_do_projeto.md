@@ -16,7 +16,7 @@ Ao selecioná-lo, você verá uma tela como esta: a `Tela do projeto`
 
 ## Novo objeto
 
-Cria um novo objeto. Um objeto pode ser desde o player, até um botão.
+Cria um novo objeto. Um objeto pode ser desde o player, até um inimigo ou chão.
 
 ### Tela de novo objeto
 
@@ -47,11 +47,11 @@ O tamanho do objeto em largura x altura.
 
 #### Estático
 
-Se o objeto deve permanecer parado.
+Se o objeto deve permanecer parado, por exemplo um chão ou plataforma.
 
 #### Pode rotacionar
 
-Se o objeto pode rotacionar. Por exemplo, ao colidir com outro objeto.
+Se o objeto pode rotacionar. Por exemplo, ao colidir com outro objeto ou estiver na ponta de um chão ou plataforma.
 
 #### Camera
 
@@ -59,7 +59,7 @@ Se o objeto será seguido pela câmera.
 
 #### Criar quando iniciar
 
-Se o objeto será criado na cena (controlado por script).
+Se o objeto será criado quando a cena começar.
 
 #### Física
 
