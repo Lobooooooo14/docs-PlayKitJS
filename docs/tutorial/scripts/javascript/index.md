@@ -76,3 +76,30 @@ var bola = new ball("sprite.png", 0, 0, 50, false, true, false);
 ## Gui
 
 O gui é um elemento para criar GUI - *Interfaçes* - como exemplo, botões e scrolls e tem seus devidos parâmetros e funções.
+
+- X: A posição X do gui na tela.
+- Y: A posição Y do gui na tela.
+- largura: A largura do gui.
+- altura: A altura do gui.
+- cor: A cor do gui.
+- tipo: Tipo da gui - *"normal, scroll* -.
+
+### Componentes
+
+Aqui os devidas componentes do gui:
+
+- .content("texto") - Define o texto do gui
+- .min = 0 - Define o valor mínimo do gui caso seja um scroll
+- .max = 0 - Define o valor máximo do gui caso seja um scroll
+- .onClick() - Função de clique, vai ser explicada mais afrente
+- .setValue(valor) - Define o valor atual do gui caso seja um scroll
+
+### OnClick
+
+O onClick é uma função do gui que serve para criar eventos de clique, para usar o onClick você deve criar uma função com ele, aqui um exemplo:
+
+```{.js linenums="1" title="Exemplo"}
+botao.onClick = function(){
+  //Oque deve ser feito quando o botão for clicado
+}
+```
